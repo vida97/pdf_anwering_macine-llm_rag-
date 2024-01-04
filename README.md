@@ -1,1 +1,1 @@
-# pdf_anwering_macine-llm_rag-
+# PDF Anwering Machine (using Google-genai)
