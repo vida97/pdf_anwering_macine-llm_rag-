@@ -1,6 +1,8 @@
 # PDF Answering Machine (using Google-genai)
 This particular application lets the user upload any pdf document and ask questions based on that to get answers. I have leveraged Sentence Transformer model for text embedding and Google's genai pro model for retrieval and augmentation (RAG). I am providing a detailed description below regarding all the components used. 
 
+Link to the application : https://vida-pdf-anwering-machine.streamlit.app/
+
 ## Loading the PDF :  
 - I have used the PdfReader method from the PyPDF2 library to read and then essentially extract all the text. I wanted to use the pdf uploaded by the user directly and not from a stored location which is why I just grabbed all the text from it. 
 - If you're planning to use a PDF stored in your local directory, you can use the Langchain's PyPDFLoader to load a stored pdf and then extract the data.
